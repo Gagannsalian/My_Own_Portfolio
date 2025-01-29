@@ -1,5 +1,5 @@
 import SplashCursor from '../Components/SplashCursor';
-import myImage from '../assets/MY.png';
+
 import '../App.css'; // Ensure the CSS file is imported
 
 const Home = () => {
@@ -54,7 +54,7 @@ const Home = () => {
         {/*========================== Right Side (Image)======================== */}
         <div className="hidden lg:block w-full lg:w-1/2 mt-6 lg:mt-0 overflow-hidden">
           <img
-            src={myImage}
+            src="/Ecommerce.jpg"
             alt="Gagan N Salian"
             className="w-full h-full object-cover rounded-lg transition-transform duration-300 transform hover:scale-105"
           />
