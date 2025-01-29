@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
- 
-  base: '/My_Own_Portfolio/',  
+
+  // Update the base URL to reflect the project structure on GitHub Pages
+  base: '/My_Own_Portfolio/frontend/',  // Set the correct base URL
 });
