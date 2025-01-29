@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Gagannsalian.github.io/My_Own_Portfolio/", 
+  "homepage": "https://Gagannsalian.github.io/My_Own_Portfolio/",
+
  "scripts": {
   "dev":"vite",
   "predeploy":"npm run build",
