@@ -1,4 +1,4 @@
-
+import MyImageOne from '../assets/my_photo.png';
 import { FaEnvelope, FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
 
           {/* Profile Image */}
           <img 
-            src="/my_photo.png"
+            src={MyImageOne} 
             alt="Gagan N Salian"
             className="w-72 h-72 md:w-80 md:h-80 rounded-full shadow-2xl transform hover:scale-110 transition-all duration-300 relative"
           />

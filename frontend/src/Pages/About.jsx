@@ -1,4 +1,4 @@
-
+import MyImageOne from '../assets/my_photo.png';
 
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css"; // Import the styles
@@ -52,7 +52,7 @@ const About = () => {
   {/* Photo on the left */}
   <div className="w-full md:w-1/3 mb-6 md:mb-0 md:mr-8">
     <img 
-      src="/my_photo.png"
+      src={MyImageOne} 
       alt="Your Photo" 
       className="w-full h-auto rounded-full shadow-lg transform hover:scale-105 transition-all duration-300" 
     />
